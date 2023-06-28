@@ -49,4 +49,9 @@ input {
     cursor: pointer;
     color: #fff;
     background-color: #337eff;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+    background-color: #3b83ff;
+    box-shadow: 0 10px 25px #404040;
 }
