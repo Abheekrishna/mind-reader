@@ -37,6 +37,12 @@ input {
     outline: none;
     padding: 15px 30px 15px 15px;
 }
+
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
+
 .blue {
     text-decoration:underline rgb(255, 217, 102);
 }
